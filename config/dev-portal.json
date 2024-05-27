@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.zuplo.com/schemas/dev-portal.json",
   "enableAuthentication": true,
-  "enabled": true,
+  "enabled": false,
   "pageTitle": "ApircotDev",
   "authentication": {
     "provider": "auth0",
@@ -9,5 +9,6 @@
     "clientId": "LzgXaZ4XtesDVZvngpforwtftLA3kS9t",
     "audience": "https://dev-mtveeysz8tsou0q2.eu.auth0.com/api/v2/"
   },
-  "requireAuthentication": true
+  "requireAuthentication": true,
+  "generateExamples": true
 }
